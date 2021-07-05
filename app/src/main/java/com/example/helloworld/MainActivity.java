@@ -12,7 +12,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Log.d("MainActivity", "Hello World");
+        Log.d("MainActivity", "Hello World I'm a DEBUG message"); // Debug
+        Log.i("MainActivity", "Hello World I'm a INFO message"); // Information
     }
 
     private static final String LOG_TAG = MainActivity.class.getSimpleName();
