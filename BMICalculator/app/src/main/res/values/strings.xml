@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="weight_instructions">Enter your weight (kg):</string>
+    <string name="height_instructions">Enter your height (m):</string>
+    <string name="calculate">CALCULATE MY BMI!</string>
+    <string name="bmi_result">Your BMI:</string>
+    <string name="very_severely_underweight">Very Severely Underweight</string>
+    <string name="severely_underweight">Severely Underweight</string>
+    <string name="underweight">Underweight</string>
+    <string name="normal">Normal (healthy weight)</string>
+    <string name="overweight">Overweight</string>
+    <string name="obese_class_1">Obese Class I (Moderate obese)</string>
+    <string name="obese_class_2">Obese Class II (Severely obese)</string>
+    <string name="obese_class_3">Obese Class III (Very severely obese)</string>
+    <string name="dots">.........</string>
+    <string name="category">BMI category appears here.</string>
+    <string name="weight_example">80</string>
+    <string name="height_example">1.80</string>
+</resources>
