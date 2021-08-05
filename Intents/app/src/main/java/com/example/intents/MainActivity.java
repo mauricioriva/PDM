@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
         EditText editText = (EditText) findViewById(R.id.text_input);
         String message = editText.getText().toString();
         intent.putExtra(MESSAGE_ENTERED, message);
-        //intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY|Intent.FLAG_DEBUG_LOG_RESOLUTION);
         startActivity(intent);
     }
 
