@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="button">GO TO SECOND ACTIVITY</string>
+    <string name="text_example">Enter your name here</string>
+    <string name="maps_text">MAP</string>
+    <string name="web_text">WEB</string>
+</resources>

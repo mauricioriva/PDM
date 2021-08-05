@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rick_morty_universe"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/text_entered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_example"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.111" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="355dp"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_entered">
+
+        <Button
+            android:id="@+id/maps_button"
+            android:layout_width="133dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#AB61C1"
+            android:onClick="openMaps"
+            android:text="@string/maps_text"
+            android:textSize="34sp"
+            android:textStyle="normal|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/web_button"
+            android:layout_width="133dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#489FE4"
+            android:onClick="openWeb"
+            android:text="@string/web_text"
+            android:textSize="34sp"
+            android:textStyle="normal|italic" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
